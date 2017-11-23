@@ -14,7 +14,7 @@
 int rownum = 2;
 int colnum = 2;
 //int global[2][rownum];
-
+sadasdfas
 int ** global;
 
 void foo()

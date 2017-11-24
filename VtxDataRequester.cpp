@@ -2,9 +2,8 @@
 using namespace std;
 #include <queue>
 
+extern struct VertexTable vertexTable;
 extern int rownum;
-extern int colnum;
-extern int **VertexTable;
 
 SC_MODULE(VtxDataRequester)
 {

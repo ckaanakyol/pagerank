@@ -12,21 +12,32 @@
 #include <math.h>
 
 int rownum = 2;
-int colnum = 2;
+//int colnum = 2;
 //int global[2][rownum];
-int ** global;
+//int ** global;
+
+
+struct VertexTable {
+  int * vid;
+};
+
+struct VertexTable vt;
+
 
 void foo()
 {
-	printf("%d\n", global[0][0]);
-  global[0][0] = 10000;
+
+  vt.vid = (int*) malloc(rownum * sizeof(int));
+
+	/*printf("%d\n", global[0][0]);
+  global[0][0] = 10000;*/
 }
 
 void bar()
 {
-  global = (int **)malloc(rownum * sizeof(int *));
+  /*global = (int **)malloc(rownum * sizeof(int *));
  	for (int i=0; i<rownum; i++)
-         global[i] = (int *)malloc(colnum * sizeof(int));
+         global[i] = (int *)malloc(colnum * sizeof(int));*/
 
 
 }

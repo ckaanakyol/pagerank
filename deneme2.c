@@ -4,13 +4,19 @@
 #include "deneme.h"
 
 
-extern int** global;
+/*extern int** global;
 extern int rownum;
-extern int colnum;
+extern int colnum;*/
+extern struct VertexTable vt;
+extern int rownum;
 
 int main(int argc, char** argv) {
 
-  bar();
+
+	foo();
+	printf("%d\n", vt.vid[0]);
+
+  /*bar();
   printf("%d\n", global[0][0]);
   printf("%d %d\n", rownum, colnum);
   global[0][0] = 50;
@@ -23,7 +29,7 @@ int main(int argc, char** argv) {
   double fraction = whole - ((int)whole);
 
   printf("%d\n", (int)whole);
-  printf("%d\n", (int)((whole-(int)whole)*10000));
+  printf("%d\n", (int)((whole-(int)whole)*10000));*/
 
   
 }

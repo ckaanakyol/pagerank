@@ -2,8 +2,9 @@
 using namespace std;
 #include <queue>
 
-//extern static const int rownum;
-//extern int VertexTable[][rownum];
+extern int rownum;
+extern int colnum;
+extern int **VertexTable;
 
 SC_MODULE(VtxDataRequester)
 {

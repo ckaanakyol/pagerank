@@ -17,5 +17,13 @@ int main(int argc, char** argv) {
   foo();
   printf("%d\n", global[0][0]);
 
+
+
+  double whole = 3.5;
+  double fraction = whole - ((int)whole);
+
+  printf("%d\n", (int)whole);
+  printf("%d\n", (int)((whole-(int)whole)*10000));
+
   
 }

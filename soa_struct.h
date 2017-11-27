@@ -14,7 +14,7 @@
 	int * inEdgeCount;
 	int * outEdgeCount;
 	int * vertexData;
-	bool * isValid;
+	bool * validity;
 } vt;
 
 */
@@ -33,7 +33,7 @@ class VertexTable {
 		int * inEdgeCount;
 		int * outEdgeCount;
 		int * vertexData;
-		bool * isValid;
+		bool * validity;
 
 		void initVertexTable()
 		{
@@ -45,7 +45,7 @@ class VertexTable {
 			inEdgeCount = (int*) malloc(rownum * sizeof(int));
 			outEdgeCount = (int*) malloc(rownum * sizeof(int));
 			vertexData = (int*) malloc(rownum * sizeof(int));
-			isValid = (bool*) malloc(rownum * sizeof(bool));
+			validity = (bool*) malloc(rownum * sizeof(bool));
 
 
 			for(int i = 0; i < rownum; i++){
@@ -57,7 +57,7 @@ class VertexTable {
 				inEdgeCount[i] = 0;
 				outEdgeCount[i] = 0;
 				vertexData[i] = 0;
-				isValid[i] = 0;
+				validity[i] = 0;
 			}
 		}
 };

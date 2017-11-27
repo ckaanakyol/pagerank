@@ -5,10 +5,6 @@ using namespace std;
 
 #include "soa_struct.h"
 
-//VertexTable vt;
-//extern int rownum;
-//vt VertexTable;
-//VertexTable vt;
 SC_MODULE(VtxDataRequester)
 {
 public:
@@ -57,27 +53,27 @@ private:
 
     void writeToTable()
     {
-    	/*int firstInvalidIndex = findFirstInvalid();
+    	int firstInvalidIndex = findFirstInvalid();
     	if(firstInvalidIndex != -1){
-    		vertexTable.vid[firstInvalidIndex] = RespondID.read();
-    		vertexTable.scaledRank[firstInvalidIndex] = ScaledRank.read();
-    		vertexTable.oneOverDegree[firstInvalidIndex] = OneOverInDegree.read();
-    		vertexTable.neighCount[firstInvalidIndex] = NeighCount.read();
-    		vertexTable.inEdgeCount[firstInvalidIndex] = InEdgeCount.read();
-    		vertexTable.outEdgeCount[firstInvalidIndex] = OutEdgeCount.read();
-    		vertexTable.vertexData[firstInvalidIndex] = VertexData.read();
-    		vertexTable.isValid[firstInvalidIndex] = 1;
-    	}*/
+    		vt.vid[firstInvalidIndex] = RespondID.read();
+    		vt.scaledRank[firstInvalidIndex] = ScaledRank.read();
+    		vt.oneOverDegree[firstInvalidIndex] = OneOverInDegree.read();
+    		vt.neighCount[firstInvalidIndex] = NeighCount.read();
+    		vt.inEdgeCount[firstInvalidIndex] = InEdgeCount.read();
+    		vt.outEdgeCount[firstInvalidIndex] = OutEdgeCount.read();
+    		vt.vertexData[firstInvalidIndex] = VertexData.read();
+    		vt.validity[firstInvalidIndex] = 1;
+    	}
     }
 
-    /*int findFirstInvalid()
+    int findFirstInvalid()
     {
     	for(int i = 0; i< rownum; i++){
-    		if(vertexTable.isValid[i] == 0)
+    		if(vt.validity[i] == 0)
     			return i;
     	}
     	return -1;
-    }*/
+    }
     
 
 };

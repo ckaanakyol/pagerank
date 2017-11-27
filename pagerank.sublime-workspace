@@ -1,0 +1,1103 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"V",
+				"VertexTable"
+			],
+			[
+				"i",
+				"include"
+			],
+			[
+				"row",
+				"rownum"
+			],
+			[
+				"in",
+				"int"
+			],
+			[
+				"S",
+				"Search_in_File"
+			],
+			[
+				"k",
+				"kVal"
+			],
+			[
+				"max",
+				"maxIndex"
+			],
+			[
+				"ma",
+				"Math"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"ad",
+				"addnbyn"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"new",
+				"newvals"
+			],
+			[
+				"add",
+				"add1by1"
+			],
+			[
+				"smoo",
+				"smooth-serial-output"
+			],
+			[
+				"mat",
+				"mat2"
+			],
+			[
+				"MP",
+				"MPI_Recv"
+			],
+			[
+				"com",
+				"communicator"
+			],
+			[
+				"MPI",
+				"MPI_Send"
+			],
+			[
+				"In",
+				"In_Id"
+			],
+			[
+				"read",
+				"readData"
+			],
+			[
+				"Ar",
+				"Ar_InData"
+			],
+			[
+				"A",
+				"AU_Addr"
+			],
+			[
+				"fi",
+				"fifo_num"
+			],
+			[
+				"m",
+				"m_curAddr"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"Fi",
+				"fifonumtoau"
+			],
+			[
+				"Fif",
+				"Fifo_NumToAr"
+			],
+			[
+				"Ar_FifoNumT",
+				"Ar_FifoNumToMem"
+			],
+			[
+				"Po",
+				"Port_CLK"
+			],
+			[
+				"por",
+				"Port_Data"
+			],
+			[
+				"P",
+				"Port_CLK"
+			],
+			[
+				"cl",
+				"clk"
+			],
+			[
+				"acc",
+				"acc0"
+			],
+			[
+				"sc",
+				"sc_signal"
+			],
+			[
+				"G",
+				"getData"
+			],
+			[
+				"w",
+				"write"
+			],
+			[
+				"value",
+				"values0"
+			],
+			[
+				"valu",
+				"values0"
+			],
+			[
+				"Port",
+				"Port_MemData"
+			],
+			[
+				"ord",
+				"order"
+			],
+			[
+				"ic",
+				"include"
+			],
+			[
+				"acc_",
+				"acc_unit0"
+			],
+			[
+				"ar",
+				"arbiter"
+			],
+			[
+				"IN",
+				"INT_MIN"
+			],
+			[
+				"f",
+				"front"
+			],
+			[
+				"F",
+				"FUNC_CONT"
+			],
+			[
+				"s",
+				"sensitive"
+			],
+			[
+				"cur",
+				"m_curFunc"
+			],
+			[
+				"c",
+				"cycle"
+			],
+			[
+				"b",
+				"back"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"fill",
+				"fillqueue"
+			],
+			[
+				"DEL",
+				"delay"
+			],
+			[
+				"m_",
+				"m_curData"
+			],
+			[
+				"Pr",
+				"Port_MemDone"
+			],
+			[
+				"d",
+				"deleteStudent"
+			],
+			[
+				"sig",
+				"signal_bind"
+			],
+			[
+				"ed",
+				"edgeOffsets"
+			],
+			[
+				"num",
+				"numInEdges"
+			],
+			[
+				"Off",
+				"getLocWithOffset"
+			],
+			[
+				"dum",
+				"dumpPretty"
+			],
+			[
+				"getSo",
+				"getSourceManager"
+			],
+			[
+				"OFF",
+				"getLocWithOffset"
+			],
+			[
+				"getLoc",
+				"getLocStart"
+			],
+			[
+				"getLo",
+				"getLocStart"
+			],
+			[
+				"inse",
+				"InsertText"
+			],
+			[
+				"TheE",
+				"TheRewriter"
+			],
+			[
+				"type",
+				"typeOfParam"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"param",
+				"parameterIndex"
+			],
+			[
+				"Func",
+				"FunctionDecl"
+			],
+			[
+				"dump",
+				"dumpPretty"
+			],
+			[
+				"DEC",
+				"DeclRefExpr"
+			],
+			[
+				"get",
+				"getArg"
+			],
+			[
+				"for",
+				"forstmt"
+			],
+			[
+				"getS",
+				"getSourceRange"
+			],
+			[
+				"R",
+				"Rewriter"
+			],
+			[
+				"du",
+				"dumpPretty"
+			],
+			[
+				"find",
+				"findReplaceLVDVars"
+			],
+			[
+				"ne",
+				"neighRank"
+			],
+			[
+				"CXXM",
+				"CXXMemberCallExpr"
+			],
+			[
+				"Var",
+				"VarDecl"
+			],
+			[
+				"index",
+				"indexofcs"
+			],
+			[
+				"cs",
+				"csnode"
+			],
+			[
+				"CXX",
+				"CXXMemberCallExpr"
+			],
+			[
+				"IF",
+				"IF_DYN_TYPE"
+			],
+			[
+				"test",
+				"test2"
+			],
+			[
+				"getL",
+				"getLHS"
+			],
+			[
+				"Cou",
+				"CompoundStmt"
+			],
+			[
+				"topo",
+				"topoOrder"
+			],
+			[
+				"top",
+				"topoOrder"
+			],
+			[
+				"getName",
+				"getNameAsString"
+			],
+			[
+				"var",
+				"varInfo"
+			],
+			[
+				"repla",
+				"replaceAllOccurrencesOf"
+			],
+			[
+				"Re",
+				"ReplaceText"
+			],
+			[
+				"If",
+				"IF_DYN_TYPE"
+			],
+			[
+				"Dec",
+				"DeclRefExpr"
+			],
+			[
+				"is",
+				"isStmt"
+			],
+			[
+				"Sour",
+				"SourceRange"
+			],
+			[
+				"dec",
+				"declToReplace"
+			],
+			[
+				"priV",
+				"printVector"
+			],
+			[
+				"predec",
+				"predecessors"
+			],
+			[
+				"suc",
+				"successors"
+			],
+			[
+				"ast",
+				"astNode"
+			],
+			[
+				"curr",
+				"currNode"
+			],
+			[
+				"node",
+				"nodeIndex"
+			],
+			[
+				"pred",
+				"predNodeIndex"
+			],
+			[
+				"tI",
+				"threadId"
+			],
+			[
+				"thre",
+				"threadId"
+			],
+			[
+				"st",
+				"std"
+			],
+			[
+				"print",
+				"printSet"
+			],
+			[
+				"visi",
+				"visitedNodesPerm"
+			],
+			[
+				"ll",
+				"llvm"
+			],
+			[
+				"mem",
+				"MemberExpr"
+			],
+			[
+				"loca",
+				"localVtxDataVars"
+			],
+			[
+				"tra",
+				"TraverseStmt"
+			],
+			[
+				"parent",
+				"parentIndex"
+			],
+			[
+				"simple",
+				"simpleNodes"
+			],
+			[
+				"pare",
+				"parentIndex"
+			],
+			[
+				"pa",
+				"parentIndex"
+			],
+			[
+				"proc",
+				"processChildren"
+			],
+			[
+				"root",
+				"rootIndex"
+			],
+			[
+				"from",
+				"fromNodeId"
+			],
+			[
+				"cild",
+				"children"
+			],
+			[
+				"err",
+				"errs"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sc_main.cpp",
+			"settings":
+			{
+				"buffer_size": 568,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "soa_struct.h",
+			"settings":
+			{
+				"buffer_size": 1352,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "VtxDataRequester.cpp",
+			"settings":
+			{
+				"buffer_size": 1854,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "VtxDataResponder.cpp",
+			"settings":
+			{
+				"buffer_size": 762,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 285.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"TOdo",
+				"TodoReview: Open Files"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"vmen",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/kaan/Desktop/mem2_systemc/memory.cpp",
+		"/home/kaan/Downloads/cs426hw2/erkan_önal_p2/documents.txt",
+		"/home/kaan/Downloads/cs426hw2/erkan_önal_p2/documents1.txt",
+		"/home/kaan/Downloads/cs426hw2/erkan_önal_p2/documents2.txt",
+		"/home/kaan/Desktop/mem2_systemc/sc_main.cpp",
+		"/home/kaan/Downloads/cs426hw2/erkan_önal_p2/utils.h",
+		"/home/kaan/Downloads/cs426hw2/erkan_önal_p2/query.txt",
+		"/home/kaan/.cache/.fr-YcSXTX/images/Readme.txt",
+		"/home/kaan/Desktop/pagerank/systemc.sh",
+		"/home/kaan/Desktop/if_stmt.txt",
+		"/home/kaan/Desktop/smooth-serial-output.txt",
+		"/home/kaan/Desktop/PartA.txt",
+		"/home/kaan/Desktop/partb.sh",
+		"/home/kaan/Desktop/cemilkaan_akyol_21102022_p3/akyol_cemilkaan.output",
+		"/home/kaan/Desktop/pagerank/deneme.h",
+		"/home/kaan/Desktop/pagerank/deneme2.c",
+		"/home/kaan/Desktop/pagerank/deneme.c",
+		"/home/kaan/Desktop/mem2_systemc/arbiter.cpp",
+		"/home/kaan/Downloads/cs426hw2/ahmet_alparslan_celik_p2/documents.txt",
+		"/home/kaan/Desktop/hw2426/script.sh",
+		"/home/kaan/Downloads/ref/global_runtime.h",
+		"/home/kaan/Downloads/ref/ga_common.h",
+		"/home/kaan/Desktop/hw2426/my3.txt",
+		"/home/kaan/Desktop/hw2426/my2.txt",
+		"/home/kaan/Desktop/hw2426/my1.txt",
+		"/home/kaan/Downloads/cs426hw2/Alba_Mustafaj_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/Alba_Mustafaj_p2/documents1.txt",
+		"/home/kaan/Downloads/cs426hw2/Alba_Mustafaj_p2/documents.txt",
+		"/home/kaan/Downloads/cs426hw2/Alba_Mustafaj_p2/documents2.txt",
+		"/home/kaan/Downloads/cs426hw2/Alba_Mustafaj_p2/outputs/clarificationREADME.txt",
+		"/home/kaan/Downloads/cs426hw2/Ali_Gunes_p2/his.txt",
+		"/home/kaan/Downloads/midtermler/Midterm/midterm1-soru1.cpp",
+		"/home/kaan/Downloads/midtermler/Midterm/midterm1-soru2.cpp",
+		"/home/kaan/Desktop/hw2426/query.txt",
+		"/home/kaan/Downloads/cs426hw2/ahmet_alparslan_celik_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/CanMert_Yildiz_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/Mehmet_Furkan_Dogan_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/Mustafa_Duymuş_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/Orhan_Uysal_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/Rubin_Daija_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/Alba_Mustafaj_p2/my1.txt",
+		"/home/kaan/Downloads/cs426hw2/mehmetnuri_yumusak_p2/my3.txt",
+		"/home/kaan/Downloads/cs426hw2/Mustafa_Caner_Caliskaner_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/Orhan_Uysal_p2/outputs/output.txt",
+		"/home/kaan/Desktop/hw2426/documents1.txt",
+		"/home/kaan/Desktop/hw2426/documents2.txt",
+		"/home/kaan/Desktop/hw2426/documents.txt",
+		"/home/kaan/Downloads/cs426hw2/zahit_saygin_dogu_p2/documents.txt",
+		"/home/kaan/Downloads/cs426hw2/zahit_saygin_dogu_p2/documents1.txt",
+		"/home/kaan/Downloads/cs426hw2/zahit_saygin_dogu_p2/documents2.txt",
+		"/home/kaan/Downloads/cs426hw2/Muhammad_Usman_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/syed_sarjeel_yusuf_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/mehmetnuri_yumusak_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/muhammet_fatih_kalyon_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/fatih_tas_p2/my3.txt",
+		"/home/kaan/Downloads/cs426hw2/fatih_tas_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/celik_koseoglu_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/erkan_önal_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/celik_koseoglu_p2/documents.txt",
+		"/home/kaan/Downloads/cs426hw2/celik_koseoglu_p2/documents1.txt",
+		"/home/kaan/Downloads/cs426hw2/celik_koseoglu_p2/documents2.txt",
+		"/home/kaan/Downloads/cs426hw2/celik_koseoglu_p2/sample_output.txt",
+		"/home/kaan/Downloads/cs426hw2/ahmet_alparslan_celik_p2/my3.txt",
+		"/home/kaan/Downloads/cs426hw2/zahit_saygin_dogu_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/Mehmet_Furkan_Dogan_p2/outputs/output1",
+		"/home/kaan/Downloads/cs426hw2/Anil_Sert_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/gulsum_gudukbay_p2/my1.txt",
+		"/home/kaan/Downloads/cs426hw2/mehmetnuri_yumusak_p2/my2.txt",
+		"/home/kaan/Downloads/cs426hw2/OsmanHakan_Can_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/gulsum_gudukbay_p2/documents.txt",
+		"/home/kaan/Downloads/cs426hw2/gulsum_gudukbay_p2/query.txt",
+		"/home/kaan/Downloads/cs426hw2/gulsum_gudukbay_p2/documents1.txt",
+		"/home/kaan/Downloads/cs426hw2/mahdi_bensaid_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/Yusuf_Gurkan_Bor_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/kenan_hirlak_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/mert_kara_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/basakmelis_ocal_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/AhmetTaha_Albayrak_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/Rubin_Daija_p2/my1.txt",
+		"/home/kaan/Downloads/cs426hw2/gulsum_gudukbay_p2/my2.txt",
+		"/home/kaan/Downloads/cs426hw2/Abdullah_Alwali_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/gulsum_gudukbay_p2/gulsum_gudukbay_p2/readme.txt",
+		"/home/kaan/Downloads/cs426hw2/Gunduz_Huseynli_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/Gunduz_Huseynli_p2/query.txt",
+		"/home/kaan/Downloads/cs426hw2/Gunduz_Huseynli_p2/outputs/d1.txt",
+		"/home/kaan/Downloads/cs426hw2/gulsum_gudukbay_p2/gulsum_gudukbay_p2/outputs/n1_d4_k3.txt",
+		"/home/kaan/Downloads/cs426hw2/basakmelis_ocal_p2/documents.txt",
+		"/home/kaan/Desktop/hw2426/utils.h",
+		"/home/kaan/Desktop/hw2426/utils.c",
+		"/home/kaan/Desktop/hw2426/main.c",
+		"/home/kaan/Desktop/hw2426/compare.c",
+		"/home/kaan/Downloads/cs426hw2/Selin_Erdem_p2/his.txt",
+		"/home/kaan/Downloads/cs426hw2/Mustafa_Duymuş_p2/utils.h",
+		"/home/kaan/Desktop/copy.sh",
+		"/home/kaan/Desktop/hw2426/out.txt",
+		"/home/kaan/Desktop/PartB.txt",
+		"/home/kaan/Desktop/hw1426/compare.c",
+		"/home/kaan/Downloads/cs426hw2/query.txt",
+		"/home/kaan/Downloads/cs426hw2/documents.txt",
+		"/home/kaan/Desktop/cs533/hw2.java",
+		"/home/kaan/Desktop/cs533/error.txt",
+		"/home/kaan/Desktop/script.sh",
+		"/home/kaan/Desktop/cs533/Report.doc",
+		"/home/kaan/Desktop/cs533/hw2.c",
+		"/home/kaan/Desktop/mem2_systemc/acc_unit.cpp",
+		"/home/kaan/Desktop/hw1426/out2.txt",
+		"/home/kaan/Downloads/cs426hw1/abdullah_wali_p1/smooth-mpi-v2-output.txt",
+		"/home/kaan/Downloads/Rubin_Daija_p1/out.txt",
+		"/home/kaan/Desktop/hw1426/input.txt",
+		"/home/kaan/Downloads/cs426hw1/ONAL_ERKAN_p1/readme",
+		"/home/kaan/Downloads/cs426hw1/Aldo_Tali_p1/output-smooth-serial.txt",
+		"/home/kaan/Downloads/cs426hw1/Alba_Mustafaj_p1/image.txt",
+		"/home/kaan/Downloads/cs426hw1/ZahitSaygin_Dogu_p1/smooth-mpi-v2-output.txt",
+		"/home/kaan/Downloads/cs426hw1/ONAL_ERKAN_p1/convolved.txt",
+		"/home/kaan/Downloads/cs426hw1/Muhammad_Usman_p1/smooth-mpi-v2.txt",
+		"/home/kaan/Downloads/cs426hw1/Mehmet_Furkan_Dogan_p1/output.txt",
+		"/home/kaan/Desktop/hw1426/image.txt",
+		"/home/kaan/Downloads/cs426hw1/bulut_aygunes_p1/smooth-mpi-v2-output.txt",
+		"/home/kaan/Downloads/cs426hw1/ZahitSaygin_Dogu_p1/1",
+		"/home/kaan/Downloads/cs426hw1/abdullah_wali_p1/image.txt",
+		"/home/kaan/Downloads/cs426hw1/Gunduz_Huseynli_p1/image.txt",
+		"/home/kaan/Downloads/cs426hw1/bulut_aygunes_p1/smooth-mpi-v1-output.txt",
+		"/home/kaan/Downloads/cs426hw1/bora_ecer_p1/smooth-mpi-v1-output.txt",
+		"/home/kaan/Downloads/cs426hw1/baris_poyraz_p1/smooth-mpi-v1-output.txt",
+		"/home/kaan/Downloads/cs426hw1/Alba_Mustafaj_p1/max-mpi-v1-output.txt",
+		"/home/kaan/Downloads/cs426hw1/AhmetTaha_Albayrak_p1/smooth-mpi-v1-output.txt",
+		"/home/kaan/Downloads/cs426hw1/abdullah_wali_p1/smooth-mpi-v1-output.txt",
+		"/home/kaan/Downloads/cs426hw1/ZahitSaygin_Dogu_p1/out.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/kaan/Downloads/sample_code",
+			"/home/kaan/Downloads/pagerank_hls"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"vertexTable",
+			"vertexTable.",
+			"vertexTable",
+			"whole",
+			"row",
+			":",
+			"printf",
+			"size",
+			"findMin",
+			"findM",
+			"findMin",
+			"Least",
+			"max_serial",
+			"1000",
+			"Fifo_Num",
+			"Port_Addr",
+			"Port_Data",
+			"FifoNum",
+			"Port_MemData",
+			"Port_MemAddr",
+			"8",
+			"\\t",
+			"newCourse",
+			"CourseNode",
+			"VI_drp_out",
+			"SELECT_ENTRY_RB_UNROLL",
+			"arbiter",
+			"arbiter rd_arbiter",
+			"AccMemIn",
+			"AccMemIn:request_handler",
+			"accMemTypedIn:request_handler",
+			"sim",
+			"AccMemTypedIn:request_handler",
+			"AccMem",
+			"AccMemTypedIn:request_handler",
+			"clock",
+			"AccMemIn:request_handler",
+			"AccMemTypedIn:request_handler",
+			"cgen",
+			"NUM_OF_READERS: ",
+			"Reading graph: ",
+			"NR_OF",
+			"sc_time_stamp",
+			"rd",
+			"dap",
+			"print(",
+			"rd",
+			"(),",
+			"modif",
+			"findGAFors",
+			"insertText",
+			"rd",
+			"kaan",
+			"searchModifyingOperatorUpstream",
+			"getSubExpr",
+			"DeclRefExpr",
+			"member",
+			"************************",
+			"*******",
+			"member",
+			"iterator",
+			"const_iterator",
+			"CXXMEM",
+			"insertText",
+			"Rewriter",
+			"struct",
+			"analyzeLocalVariablesInSubtree",
+			"replaceAllOccurrencesOf",
+			"dump",
+			"printSimpleTree",
+			"dump",
+			"look",
+			"referencedLVDFields",
+			"look",
+			"find",
+			"referencedLVDFields",
+			"replaceAllOccurrencesOf",
+			"struct",
+			"getQualified",
+			"getName",
+			"binary",
+			"MemberExpr",
+			"DEclStmt",
+			"MemberExpr",
+			"memberExpr",
+			"look",
+			"IF_DYN_TYPE(stmt, MemberExpr, mexpr)",
+			"look",
+			"referencedLVDFields",
+			"getType",
+			"vd",
+			"stmt->dumpPretty(*ac);\n                    llvm",
+			"}\n",
+			"look",
+			"vd",
+			"IF_DYn_Type",
+			"gaF",
+			"push_back",
+			"look",
+			"analyzeLocalVariablesInSubtree",
+			"isRead",
+			"look",
+			"searchModifyingOperatorUpstream",
+			"isMutable",
+			"look",
+			"printLVDFields",
+			"look",
+			"SimpleVariable",
+			"analyzeLV",
+			"topolist",
+			"renameLocalVariables",
+			"topolist",
+			"llvm::errs()<< \"\\n\"",
+			"topoList",
+			"dumpPrett",
+			"simpleTreeRootIndex",
+			"print",
+			"topoList",
+			"simpleNodes",
+			"dumpP",
+			"SM",
+			"sourceManager",
+			"dumpPret",
+			"dumpColor",
+			"printVec",
+			"llvm::errs() <<",
+			"struct VertexData",
+			"Occu"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"vt",
+			"",
+			"1",
+			"Mem_FifoNum",
+			"Mem_Addr",
+			"Ar_InData",
+			"Ar_FifoNum",
+			"AU_InData",
+			"AU_Addr"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sc_main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								511,
+								511
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "soa_struct.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								547,
+								547
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 117.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "VtxDataRequester.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1854,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1437,
+								1437
+							]
+						],
+						"settings":
+						{
+							"spell_check": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "VtxDataResponder.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

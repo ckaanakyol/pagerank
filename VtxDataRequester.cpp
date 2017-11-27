@@ -21,7 +21,9 @@ public:
 	
 
 	sc_in<int> inID{"inid"}; //Comes from outside
-	sc_out<int> requestID{"requestID"};
+	sc_out<int> requestID{"requestID"}; //request
+
+    sc_out<int> rowId{"rowid"};
 
 
 

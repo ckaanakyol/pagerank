@@ -2,9 +2,13 @@
 using namespace std;
 #include <queue>
 
-extern struct VertexTable vertexTable;
-extern int rownum;
 
+#include "soa_struct.h"
+
+//VertexTable vt;
+//extern int rownum;
+//vt VertexTable;
+//VertexTable vt;
 SC_MODULE(VtxDataRequester)
 {
 public:
@@ -27,6 +31,10 @@ public:
 
 	SC_CTOR(VtxDataRequester)
     {
+        printf("%d\n", vt.vid[0]);
+        vt.vid[0] = 3;
+        printf("%d\n", vt.vid[0]);
+        printf("%d\n", rownum);
         SC_METHOD(execute);
         sensitive << Port_CLK;
 
@@ -49,8 +57,27 @@ private:
 
     void writeToTable()
     {
-
+    	/*int firstInvalidIndex = findFirstInvalid();
+    	if(firstInvalidIndex != -1){
+    		vertexTable.vid[firstInvalidIndex] = RespondID.read();
+    		vertexTable.scaledRank[firstInvalidIndex] = ScaledRank.read();
+    		vertexTable.oneOverDegree[firstInvalidIndex] = OneOverInDegree.read();
+    		vertexTable.neighCount[firstInvalidIndex] = NeighCount.read();
+    		vertexTable.inEdgeCount[firstInvalidIndex] = InEdgeCount.read();
+    		vertexTable.outEdgeCount[firstInvalidIndex] = OutEdgeCount.read();
+    		vertexTable.vertexData[firstInvalidIndex] = VertexData.read();
+    		vertexTable.isValid[firstInvalidIndex] = 1;
+    	}*/
     }
+
+    /*int findFirstInvalid()
+    {
+    	for(int i = 0; i< rownum; i++){
+    		if(vertexTable.isValid[i] == 0)
+    			return i;
+    	}
+    	return -1;
+    }*/
     
 
 };

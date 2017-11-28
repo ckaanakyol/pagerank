@@ -2,6 +2,7 @@
 #include "soa_struct.h"
 #include "VtxDataRequester.cpp"
 #include "VtxDataResponder.cpp"
+#include <vector>
 
 
 //extern struct VertexTable vertexTable;
@@ -70,5 +71,10 @@ int sc_main(int argc, char* argv[])
     vdres.In_Id(requestID);
 
 	sc_start(50000, SC_PS);
+
+
+
+	for (int i = 0 ; i < 9; ++i)
+    std::cout << vt.vid[i] << ' ';
 	return 0;
 }

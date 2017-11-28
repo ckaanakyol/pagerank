@@ -25,19 +25,23 @@ public:
 
     sc_out<int> rowId{"rowid"};
 
-
-
+    int isFirstTime;
+    int id;
 	SC_CTOR(VtxDataRequester)
     {
-        printf("%d\n", vt.vid[0]);
+        /*printf("%d\n", vt.vid[0]);
         vt.vid[0] = 3;
         printf("%d\n", vt.vid[0]);
-        printf("%d\n", rownum);
+        printf("%d\n", rownum);*/
+        isFirstTime = 1;
         SC_METHOD(execute);
         sensitive << Port_CLK;
-
+        id = 2;
         SC_METHOD(writeToTable);
         sensitive << Port_CLK;
+        vIDs.pop();
+        vIDs.push(0);
+        vIDs.push(1);
     }
 
     ~VtxDataRequester() {  }
@@ -48,15 +52,21 @@ private:
 
 	void execute()
     {
-    	vIDs.push(inID.read());
+    	//vIDs.push(inID.read());
+        //if(id < 9)
+        vIDs.push(id);
+        id++;
     	int requestThisVtx = vIDs.front();
+        cout<< "requestThisVtx: " << requestThisVtx << endl;
     	requestID.write(requestThisVtx);
+        vIDs.pop();
     }
 
     void writeToTable()
     {
     	int firstInvalidIndex = findFirstInvalid();
-    	if(firstInvalidIndex != -1){
+    	if(firstInvalidIndex != -1 && isFirstTime != 1){
+            
     		vt.vid[firstInvalidIndex] = RespondID.read();
     		vt.scaledRank[firstInvalidIndex] = ScaledRank.read();
     		vt.oneOverDegree[firstInvalidIndex] = OneOverInDegree.read();
@@ -65,7 +75,10 @@ private:
     		vt.outEdgeCount[firstInvalidIndex] = OutEdgeCount.read();
     		vt.vertexData[firstInvalidIndex] = VertexData.read();
     		vt.validity[firstInvalidIndex] = 1;
+
+            //cout << firstInvalidIndex << ": " << vt.vid[firstInvalidIndex]<<"  " <<vt.scaledRank[firstInvalidIndex] << endl;
     	}
+        isFirstTime = 0;
     }
 
     int findFirstInvalid()

@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <math.h>
 #include "deneme.h"
+#include <vector>
+using namespace std;
+#include <iostream>
 
 
 /*extern int** global;
@@ -12,7 +15,9 @@ extern int rownum;
 
 int main(int argc, char** argv) {
 
-
+	vector<int> v(10);
+  v.at(0)=5;
+	cout<< v[0]<<endl;
 	foo();
 	printf("%d\n", vt.vid[0]);
 
